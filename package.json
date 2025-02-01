@@ -1,0 +1,21 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "A microservice system to demonstrate PubSub using Node JS, Express JS, MongoDB and AWS SQS.",
+  "main": "src/receiver/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.738.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "uuid": "^11.0.5"
+  }
+}
